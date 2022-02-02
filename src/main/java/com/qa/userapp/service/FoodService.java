@@ -25,6 +25,10 @@ public class FoodService {
 		return this.repository.findById(ID).orElseThrow();
 	}
 	
+	public List<FoodEntity> getFoodByName(String name) {
+		return this.repository.findFoodEntityByName(name);
+	}
+	
 	public FoodEntity createFood(FoodEntity food) {
 		FoodEntity savedFood = this.repository.save(food);
 		return savedFood;
