@@ -18,7 +18,7 @@ public class FoodService {
 	}
 	
 	public List<FoodEntity> getAllFoods() {
-		return repository.findAll();
+		return this.repository.findAll();
 	}
 	
 	public FoodEntity getFoodByID(Long ID) {
@@ -28,5 +28,19 @@ public class FoodService {
 	public FoodEntity createFood(FoodEntity food) {
 		FoodEntity savedFood = this.repository.save(food);
 		return savedFood;
+	}
+	
+	public FoodEntity updateFood(FoodEntity updatedFood, Long ID) {
+		FoodEntity food = this.repository.findById(ID).orElseThrow();
+		food.setName(updatedFood.getName());
+		food.setCarbs(updatedFood.getCarbs());
+		food.setFat(updatedFood.getFat());
+		food.setProtein(updatedFood.getProtein());
+		this.repository.save(food);
+		return food;
+	}
+	
+	public void deleteFoodByID(Long ID) {
+		this.repository.deleteById(ID);
 	}
 }
