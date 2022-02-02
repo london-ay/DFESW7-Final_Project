@@ -25,6 +25,10 @@ public class FoodEntity {
 	@Column
 	private float protein;
 
+	public FoodEntity() {
+		
+	}
+	
 	public FoodEntity(Long id, String name, float carbs, float fat, float protein) {
 		super();
 		this.id = id;
