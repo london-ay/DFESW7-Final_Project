@@ -49,12 +49,26 @@ public class FoodControllerTest {
 	}
 	
 	@Test
-	public void getAllUsersTest() throws Exception {
+	public void testGetAllFoods() throws Exception {
 		MockHttpServletRequestBuilder mockRequest = MockMvcRequestBuilders.request(HttpMethod.GET, "/food");
 		mockRequest.accept(MediaType.APPLICATION_JSON);
 		String foods = objectMapper.writeValueAsString(foodDatabase);
 		ResultMatcher statusMatcher = MockMvcResultMatchers.status().isOk();
 		ResultMatcher contentMatcher = MockMvcResultMatchers.content().json(foods);
 		mockMvc.perform(mockRequest).andExpect(statusMatcher).andExpect(contentMatcher);
+	}
+	
+	@Test
+	public void testCreateFood() throws Exception {
+		Long id1 = Long.valueOf(3);
+		Long id2 = Long.valueOf(3);
+		FoodEntity newFood = new FoodEntity(id1, "cacao", (float) 10.00, (float) 20.00, (float) 30.50);
+		FoodEntity expectedFood = new FoodEntity(id1, "cacao", (float) 10.00, (float) 20.00, (float) 30.50);
+		MockHttpServletRequestBuilder mockRequest = MockMvcRequestBuilders.request(HttpMethod.POST, "/food");
+		mockRequest.contentType(MediaType.APPLICATION_JSON);
+		mockRequest.content(objectMapper.writeValueAsString(newFood));
+		mockRequest.accept(MediaType.APPLICATION_JSON);
+		ResultMatcher contentMatcher = MockMvcResultMatchers.content().json(objectMapper.writeValueAsString(expectedFood));
+		mockMvc.perform(mockRequest).andExpect(contentMatcher);
 	}
 }
