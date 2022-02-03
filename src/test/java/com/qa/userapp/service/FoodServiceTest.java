@@ -44,6 +44,16 @@ public class FoodServiceTest {
 	}
 	
 	@Test
+	public void testGetFoodByName() {
+		ArrayList<FoodEntity> foods = new ArrayList<FoodEntity>();
+		Long id = Long.valueOf(1);
+		FoodEntity cacao = new FoodEntity(id, "cacao", (float) 20.00, (float) 12.45, (float) 9.30);
+		foods.addAll(List.of(cacao));
+		when(this.repository.findFoodEntityByName("cacao")).thenReturn(foods);
+		assertThat(this.service.getFoodByName("cacao")).isEqualTo(foods);
+	}
+	
+	@Test
 	public void testCreateFood() {
 		Long id = Long.valueOf(1);
 		FoodEntity cacao = new FoodEntity(id, "cacao", (float) 20.00, (float) 12.45, (float) 9.30);
