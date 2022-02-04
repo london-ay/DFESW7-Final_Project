@@ -14,6 +14,7 @@ import org.springframework.boot.test.context.SpringBootTest.WebEnvironment;
 import org.springframework.http.HttpMethod;
 import org.springframework.http.MediaType;
 import org.springframework.test.web.servlet.MockMvc;
+import org.springframework.test.web.servlet.MvcResult;
 import org.springframework.test.web.servlet.ResultMatcher;
 import org.springframework.test.web.servlet.request.MockHttpServletRequestBuilder;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
@@ -39,6 +40,8 @@ public class FoodControllerTest {
 	
 	private List<FoodEntity> foodDatabase;
 	
+	private Long nextNewElementsId;
+	
 	@BeforeEach
 	public void init() {
 		Long id1 = Long.valueOf(1);
@@ -46,29 +49,38 @@ public class FoodControllerTest {
 		List<FoodEntity> foods = List.of(new FoodEntity(id1, "cacao", (float) 10.00, (float) 20.00, (float) 30.50), new FoodEntity(id2, "rice", (float) 5.00, (float) 10.50, (float) 15.00));
 		foodDatabase = new ArrayList<>();
 		foodDatabase.addAll(repository.saveAll(foods));
+		int size = foodDatabase.size();
+		nextNewElementsId = foodDatabase.get(size - 1).getId() + 1;
 	}
 	
 	@Test
 	public void testGetAllFoods() throws Exception {
 		MockHttpServletRequestBuilder mockRequest = MockMvcRequestBuilders.request(HttpMethod.GET, "/food");
 		mockRequest.accept(MediaType.APPLICATION_JSON);
-		String foods = objectMapper.writeValueAsString(foodDatabase);
-		ResultMatcher statusMatcher = MockMvcResultMatchers.status().isOk();
+		List<FoodEntity> expectedFoods = repository.findAll();
+		String foods = objectMapper.writeValueAsString(expectedFoods);
 		ResultMatcher contentMatcher = MockMvcResultMatchers.content().json(foods);
-		mockMvc.perform(mockRequest).andExpect(statusMatcher).andExpect(contentMatcher);
+		mockMvc.perform(mockRequest).andExpect(contentMatcher);
 	}
 	
 	@Test
 	public void testCreateFood() throws Exception {
-		Long id1 = Long.valueOf(3);
-		Long id2 = Long.valueOf(3);
-		FoodEntity newFood = new FoodEntity(id1, "cacao", (float) 10.00, (float) 20.00, (float) 30.50);
-		FoodEntity expectedFood = new FoodEntity(id1, "cacao", (float) 10.00, (float) 20.00, (float) 30.50);
+		Long id = Long.valueOf(1);
+		FoodEntity newFood = new FoodEntity(id, "cacao", (float) 10.00, (float) 20.00, (float) 30.50);
+		
 		MockHttpServletRequestBuilder mockRequest = MockMvcRequestBuilders.request(HttpMethod.POST, "/food");
 		mockRequest.contentType(MediaType.APPLICATION_JSON);
 		mockRequest.content(objectMapper.writeValueAsString(newFood));
 		mockRequest.accept(MediaType.APPLICATION_JSON);
+		
+		FoodEntity expectedFood = new FoodEntity(nextNewElementsId, "cacao", (float) 10.0, (float) 20.0, (float) 30.5);
+		
 		ResultMatcher contentMatcher = MockMvcResultMatchers.content().json(objectMapper.writeValueAsString(expectedFood));
+		
+		//ResultMatcher contentMatcher = MockMvcResultMatchers.content().json(objectMapper.writeValueAsString(expectedFood));
+		System.out.println(objectMapper.writeValueAsString(expectedFood));
 		mockMvc.perform(mockRequest).andExpect(contentMatcher);
 	}
+	
+	
 }
