@@ -1,4 +1,4 @@
-package com.qa.userapp.service;
+package com.qa.nutritionapp.service;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.mockito.Mockito.when;
@@ -13,8 +13,9 @@ import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
 
-import com.qa.userapp.data.FoodRepository;
-import com.qa.userapp.data.FoodEntity;
+import com.qa.nutritionapp.data.FoodEntity;
+import com.qa.nutritionapp.data.FoodRepository;
+import com.qa.nutritionapp.service.FoodService;
 
 @ExtendWith(MockitoExtension.class)
 public class FoodServiceTest {
