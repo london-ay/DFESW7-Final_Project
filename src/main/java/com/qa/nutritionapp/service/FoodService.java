@@ -1,12 +1,12 @@
-package com.qa.userapp.service;
+package com.qa.nutritionapp.service;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.qa.userapp.data.FoodEntity;
-import com.qa.userapp.data.FoodRepository;
+import com.qa.nutritionapp.data.FoodEntity;
+import com.qa.nutritionapp.data.FoodRepository;
 
 @Service
 public class FoodService {

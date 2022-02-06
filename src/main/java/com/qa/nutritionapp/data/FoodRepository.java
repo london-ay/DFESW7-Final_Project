@@ -1,4 +1,4 @@
-package com.qa.userapp.data;
+package com.qa.nutritionapp.data;
 import java.util.List;
 
 import org.springframework.data.jpa.repository.JpaRepository;

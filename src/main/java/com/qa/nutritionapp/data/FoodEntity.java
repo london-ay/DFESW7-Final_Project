@@ -1,4 +1,4 @@
-package com.qa.userapp.data;
+package com.qa.nutritionapp.data;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
