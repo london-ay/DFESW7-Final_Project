@@ -46,6 +46,6 @@ One of the main next steps for this project is developing a front-end. It was in
 [https://github.com/london-ay/DFESW7-Final_Project/tree/main/documentation/ERD%20Diagram.pdf](https://github.com/london-ay/DFESW7-Final_Project/tree/main/documentation/ERD%20Diagram.pdf)
 
 ### Testing Coverage:
-[https://github.com/london-ay/DFESW7-Final_Project/tree/main/documentation/testing-coverage.png](https://github.com/london-ay/DFESW7-Final_Project/tree/main/documentation/testing-coverage.png)
+[https://github.com/london-ay/DFESW7-Final_Project/tree/main/documentation/testing-coverage-68.png](https://github.com/london-ay/DFESW7-Final_Project/tree/main/documentation/testing-coverage-68.png)
 
 ## License: [MIT](https://choosealicense.com/licenses/mit/)
