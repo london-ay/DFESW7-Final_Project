@@ -1,4 +1,4 @@
-package com.qa.userapp.controller;
+package com.qa.nutritionapp.controller;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -21,8 +21,8 @@ import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.qa.userapp.data.FoodRepository;
-import com.qa.userapp.data.FoodEntity;
+import com.qa.nutritionapp.data.FoodEntity;
+import com.qa.nutritionapp.data.FoodRepository;
 
 @SpringBootTest(webEnvironment= WebEnvironment.RANDOM_PORT)
 @AutoConfigureMockMvc

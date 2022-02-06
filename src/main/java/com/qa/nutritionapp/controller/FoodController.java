@@ -1,4 +1,4 @@
-package com.qa.userapp.controller;
+package com.qa.nutritionapp.controller;
 
 import java.util.List;
 
@@ -13,8 +13,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.qa.userapp.data.FoodEntity;
-import com.qa.userapp.service.FoodService;
+import com.qa.nutritionapp.data.FoodEntity;
+import com.qa.nutritionapp.service.FoodService;
 
 @RestController
 @RequestMapping(path = "/food")
