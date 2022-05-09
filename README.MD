@@ -49,4 +49,7 @@ One of the main next steps for this project is developing a front-end. It was in
 ### Testing Coverage:
 [https://github.com/london-ay/DFESW7-Final_Project/tree/main/documentation/testing-coverage-68.png](https://github.com/london-ay/DFESW7-Final_Project/tree/main/documentation/testing-coverage-68.png)
 
+### Network Graph:
+(https://github.com/london-ay/DFESW7-Final_Project/network)
+
 ## License: [MIT](https://choosealicense.com/licenses/mit/)
