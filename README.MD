@@ -23,7 +23,10 @@ I expected the challenge to take long hours and a lot of research.
 
 **What went well? / What didn't go as planned?**
 
- I expected some high impact risks related to hardware, software, internet connectivity and time limit. In practice I experienced no hardware issues, had some software bugs related to Postman with low impact on the project so they were acceptable. Testing took longer then 2 days soI decided to stick with the minimum test coverage required for this project of 60%.  
+I am happy I managed to do more than 1 stretch goal until the end of the allocated time for the project! 
+ 
+There were some high impact risks related to hardware, software, internet connectivity and time limit which I outlined in the risk assesment. In practice I experienced no hardware issues, had some software bugs related to Postman with low impact on the project. Testing took longer then 2 days so me and my coach decided to stick with the minimum test coverage required for this project.  
+ 
 
 **Possible improvements for future revision of project:**
 
