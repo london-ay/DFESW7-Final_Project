@@ -31,10 +31,11 @@ One of the main next steps for this project is developing a front-end. It was in
 
 ### Jira Board:
 
-![Jira Board](https://london-ay.atlassian.net/jira/software/projects/PROJ/boards/3/roadmap?raw=true)
+[https://london-ay.atlassian.net/jira/software/projects/PROJ/boards/3/roadmap?raw=true](https://london-ay.atlassian.net/jira/software/projects/PROJ/boards/3/roadmap?raw=true)
 
 ### Screenshots showing your postman requests and the output from the API:
-![https://github.com/london-ay/DFESW7-Final_Project/tree/main/documentation](https://github.com/london-ay/DFESW7-Final_Project/tree/main/documentation?raw=true)
+![Postman Request Example](https://github.com/london-ay/DFESW7-Final_Project/blob/main/documentation/PostmanPutRequestScreenshot.png?raw=true)
+![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
 
 ### Screenshot of my database showing that data is being persisted:
 ![https://github.com/london-ay/DFESW7-Final_Project/tree/main/documentation/Database%20Screenshot.png](https://github.com/london-ay/DFESW7-Final_Project/tree/main/documentation/Database%20Screenshot.png?raw=true)
