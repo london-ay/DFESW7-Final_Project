@@ -46,7 +46,7 @@ One of the main next steps for this project is developing a front-end. It was in
 [https://github.com/london-ay/DFESW7-Final_Project/tree/main/documentation/testing-coverage-68.png](https://github.com/london-ay/DFESW7-Final_Project/tree/main/documentation/testing-coverage-68.png?raw=true)
 
 ### Entity Relationship Diagram:
-[Entity Relationship Diagram](https://github.com/london-ay/DFESW7-Final_Project/tree/main/documentation/ERD%20Diagram.pdf)
+[https://github.com/london-ay/DFESW7-Final_Project/tree/main/documentation/ERD%20Diagram.pdf](https://github.com/london-ay/DFESW7-Final_Project/tree/main/documentation/ERD%20Diagram.pdf)
 
 ### Network Graph:
 https://github.com/london-ay/DFESW7-Final_Project/network
