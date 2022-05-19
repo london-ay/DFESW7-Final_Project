@@ -23,11 +23,11 @@ I expected the challenge to take long hours and a lot of research.
 
 **What went well? / What didn't go as planned?**
 
- I expected some high impact risks related to hardware, software, internet connectivity and the time limit. In practice I experienced no hardware issues, had some software bugs related to Postman with low impact on the project so they were acceptable. Testing took longer then 2 days so I decided to stick with the minimum test coverage of 60%.  
+ I expected some high impact risks related to hardware, software, internet connectivity and time limit. In practice I experienced no hardware issues, had some software bugs related to Postman with low impact on the project so they were acceptable. Testing took longer then 2 days soI decided to stick with the minimum test coverage required for this project of 60%.  
 
 **Possible improvements for future revision of project:**
 
-One of the main next steps for this project is developing a front-end. It was initially planned but due to the time restriction it was delayed until the next release. 
+The main improvement for this project would be to develop a front-end.   
 
 ### Jira Board:
 
