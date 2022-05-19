@@ -31,25 +31,25 @@ One of the main next steps for this project is developing a front-end. It was in
 
 ### Jira Board:
 
-[https://london-ay.atlassian.net/jira/software/projects/PROJ/boards/3/roadmap](https://london-ay.atlassian.net/jira/software/projects/PROJ/boards/3/roadmap)
+![https://london-ay.atlassian.net/jira/software/projects/PROJ/boards/3/roadmap](https://london-ay.atlassian.net/jira/software/projects/PROJ/boards/3/roadmap?raw=true)
 
 ### Screenshots showing your postman requests and the output from the API:
-[https://github.com/london-ay/DFESW7-Final_Project/tree/main/documentation](https://github.com/london-ay/DFESW7-Final_Project/tree/main/documentation)
+![https://github.com/london-ay/DFESW7-Final_Project/tree/main/documentation](https://github.com/london-ay/DFESW7-Final_Project/tree/main/documentation?raw=true)
 
 ### Screenshot of my database showing that data is being persisted:
-[https://github.com/london-ay/DFESW7-Final_Project/tree/main/documentation/Database%20Screenshot.png](https://github.com/london-ay/DFESW7-Final_Project/tree/main/documentation/Database%20Screenshot.png)
+![https://github.com/london-ay/DFESW7-Final_Project/tree/main/documentation/Database%20Screenshot.png](https://github.com/london-ay/DFESW7-Final_Project/tree/main/documentation/Database%20Screenshot.png?raw=true)
 
 ### Risk Assesment:
-[https://github.com/london-ay/DFESW7-Final_Project/tree/main/documentation/risk_assessment_nutrition_api.pdf](https://github.com/london-ay/DFESW7-Final_Project/tree/main/documentation/risk_assessment_nutrition_api.pdf)
+![https://github.com/london-ay/DFESW7-Final_Project/tree/main/documentation/risk_assessment_nutrition_api.pdf](https://github.com/london-ay/DFESW7-Final_Project/tree/main/documentation/risk_assessment_nutrition_api.pdf?raw=true)
 
 ### Entity Relationship Diagram:
 !([https://github.com/london-ay/DFESW7-Final_Project/tree/main/documentation/ERD%20Diagram.pdf?raw=true)
 [https://github.com/london-ay/DFESW7-Final_Project/tree/main/documentation/ERD%20Diagram.pdf](https://github.com/london-ay/DFESW7-Final_Project/tree/main/documentation/ERD%20Diagram.pdf)
 
 ### Testing Coverage:
-[https://github.com/london-ay/DFESW7-Final_Project/tree/main/documentation/testing-coverage-68.png](https://github.com/london-ay/DFESW7-Final_Project/tree/main/documentation/testing-coverage-68.png)
+[https://github.com/london-ay/DFESW7-Final_Project/tree/main/documentation/testing-coverage-68.png](https://github.com/london-ay/DFESW7-Final_Project/tree/main/documentation/testing-coverage-68.png?raw=true)
 
 ### Network Graph:
 https://github.com/london-ay/DFESW7-Final_Project/network
 
-## License: [MIT](https://choosealicense.com/licenses/mit/)
+## License: [MIT](https://choosealicense.com/licenses/mit/?raw=true)
