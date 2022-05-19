@@ -2,9 +2,7 @@
 
 Knowing what we eat matters. This is the reason why I chose to create this Nutrition API.
 
-This is a Java Spring Boot API Project that lets the user interact with nutritional information about food items. The API allows the user to read, create, update, delete values. 
-The API is built following agile software development methodologies in order to demonstrate the skills gained throughout the QA Software Development Bootcamp by delivering a minimum viable product to a set deadline.
-Tools and concepts utilized include agile software development practices, continuous integration and continuous delivery, version control, object oriented programming, software testing, relational databases, Java, Maven, Spring Boot, Junit, Mockito, Postman, and others.
+This Java Spring Boot API Project lets users interact with nutritional information about food items. The API allows users to read, create, update, and delete values. The API is built following agile development methodologies to demonstrate the skills gained throughout the QA Software Development Bootcamp by delivering a minimum viable product to a set deadline. Tools and concepts utilised include agile software development practices, continuous integration and delivery, version control, object-oriented programming, software testing, relational databases, Java, Maven, Spring Boot, Junit, Mockito, Postman, etc.
 
 **Technologies used:**
 
@@ -25,7 +23,7 @@ I expected the challenge to take long hours and a lot of research.
 
 I am happy I managed to do more than 1 stretch goal until the end of the allocated time for the project! 
  
-There were some high impact risks related to hardware, software, internet connectivity and time limit which I outlined in the risk assesment. In practice I experienced no hardware issues, had some software bugs related to Postman with low impact on the project. Testing took longer then 2 days so me and my coach decided to stick with the minimum test coverage required for this project.  
+There were some high impact risks related to hardware, software, internet connectivity and time limit, which I outlined in the risk assessment. In practice, I experienced no hardware issues and had some software bugs related to Postman with low impact on the project. Testing took longer then two days, so my consultant and I decided to stick with the minimum test coverage required for this project.    
  
 
 **Possible improvements for future revision of project:**
