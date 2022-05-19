@@ -4,7 +4,7 @@ As someone who is passionate about nutrition and healthy living I often get aske
 
 This is a Java Spring Boot API Project that lets the user interact with nutritional information about food items. The API allows the user to read, create, update, delete values. 
 This API is built following agile software development methodologies in order to demonstrate the skills gained throughout the QA Software Development Bootcamp by delivering a minimum viable product to a set deadline.
-Tools and concepts utilized include agile software development practices, continuous integration, version control, object oriented programming, software testing, relational databases, Java, Maven, Spring Boot, Junit, Mockito, Postman, and others.
+Tools and concepts utilized include agile software development practices, continuous integration and continuous delivery, version control, object oriented programming, software testing, relational databases, Java, Maven, Spring Boot, Junit, Mockito, Postman, and others.
 
 **Technologies used:**
 
@@ -23,7 +23,7 @@ I expected the challenge to take long hours and a lot of research.
 
 **What went well? / What didn't go as planned?**
 
-As outlined in the risk assesment, I expected some high impact risks realted to hardware, software, internet connectivity and time limit. In practice I experienced no hardware issues, had some software bugs related to Postman with low impact on the project so they were acceptable. Testing took longer then 2 days so I decided to stick with the minimum test coverage of 60%.  
+ I expected some high impact risks related to hardware, software, internet connectivity and the time limit. In practice I experienced no hardware issues, had some software bugs related to Postman with low impact on the project so they were acceptable. Testing took longer then 2 days so I decided to stick with the minimum test coverage of 60%.  
 
 **Possible improvements for future revision of project:**
 
