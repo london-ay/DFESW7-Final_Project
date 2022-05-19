@@ -1,9 +1,9 @@
 #  Nutrition API
 
-As someone who is passionate about nutrition and healthy living I often get asked questions about healthy eating. My first advice is always to know what you eat. This is the reason why I created this Nutrition API!
+Knowing what we eat matters. This is the reason why I chose to create this Nutrition API.
 
 This is a Java Spring Boot API Project that lets the user interact with nutritional information about food items. The API allows the user to read, create, update, delete values. 
-This API is built following agile software development methodologies in order to demonstrate the skills gained throughout the QA Software Development Bootcamp by delivering a minimum viable product to a set deadline.
+The API is built following agile software development methodologies in order to demonstrate the skills gained throughout the QA Software Development Bootcamp by delivering a minimum viable product to a set deadline.
 Tools and concepts utilized include agile software development practices, continuous integration and continuous delivery, version control, object oriented programming, software testing, relational databases, Java, Maven, Spring Boot, Junit, Mockito, Postman, and others.
 
 **Technologies used:**
