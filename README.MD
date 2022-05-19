@@ -40,7 +40,7 @@ One of the main next steps for this project is developing a front-end. It was in
 ![https://github.com/london-ay/DFESW7-Final_Project/tree/main/documentation/Database%20Screenshot.png](https://github.com/london-ay/DFESW7-Final_Project/tree/main/documentation/Database%20Screenshot.png?raw=true)
 
 ### Risk Assesment:
-!["Risk Assesment"](https://github.com/london-ay/DFESW7-Final_Project/tree/main/documentation/risk_assessment_nutrition_api.pdf?raw=true?raw=true)
+![Risk Assesment](https://github.com/london-ay/DFESW7-Final_Project/tree/main/documentation/risk_assessment_nutrition_api.pdf"Risk Assesment")
 
 ### Entity Relationship Diagram:
 !([https://github.com/london-ay/DFESW7-Final_Project/tree/main/documentation/ERD%20Diagram.pdf?raw=true)
