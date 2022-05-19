@@ -37,13 +37,13 @@ One of the main next steps for this project is developing a front-end. It was in
 ![Postman Request Example](https://github.com/london-ay/DFESW7-Final_Project/blob/main/documentation/PostmanPutRequestScreenshot.png?raw=true)
 
 ### Screenshot of my database showing that data is being persisted:
-![Database](https://github.com/london-ay/DFESW7-Final_Project/blob/main/documentation/Database%20Screenshot.png?)
+![Database](https://github.com/london-ay/DFESW7-Final_Project/blob/main/documentation/Database%20Screenshot.png?raw=true)
 
 ### Risk Assesment:
-![Risk Assesment](https://github.com/london-ay/DFESW7-Final_Project/tree/main/documentation/risk_assessment_nutrition_api.pdf"Risk Assesment")
+[Risk Assesment](https://github.com/london-ay/DFESW7-Final_Project/tree/main/documentation/risk_assessment_nutrition_api.pdf)
 
 ### Testing Coverage:
-![Testing Coverage](https://github.com/london-ay/DFESW7-Final_Project/tree/main/documentation/testing-coverage-68.png)
+![Testing Coverage](https://github.com/london-ay/DFESW7-Final_Project/tree/main/documentation/testing-coverage-68.png?raw=true)
 
 ### Entity Relationship Diagram:
 [Entity Relationship Diagram](https://github.com/london-ay/DFESW7-Final_Project/tree/main/documentation/ERD%20Diagram.pdf)
