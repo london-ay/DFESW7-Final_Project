@@ -31,7 +31,7 @@ One of the main next steps for this project is developing a front-end. It was in
 
 ### Jira Board:
 
-![https://london-ay.atlassian.net/jira/software/projects/PROJ/boards/3/roadmap](https://london-ay.atlassian.net/jira/software/projects/PROJ/boards/3/roadmap?raw=true)
+![Jira Board](https://london-ay.atlassian.net/jira/software/projects/PROJ/boards/3/roadmap?raw=true)
 
 ### Screenshots showing your postman requests and the output from the API:
 ![https://github.com/london-ay/DFESW7-Final_Project/tree/main/documentation](https://github.com/london-ay/DFESW7-Final_Project/tree/main/documentation?raw=true)
