@@ -31,7 +31,7 @@ One of the main next steps for this project is developing a front-end. It was in
 
 ### Jira Board:
 
-[https://london-ay.atlassian.net/jira/software/projects/PROJ/boards/3/roadmap?raw=true](https://london-ay.atlassian.net/jira/software/projects/PROJ/boards/3/roadmap?raw=true)
+[https://london-ay.atlassian.net/jira/software/projects/PROJ/boards/3/roadmap?raw=true](https://london-ay.atlassian.net/jira/software/projects/PROJ/boards/3/roadmap)
 
 ### Screenshots showing your postman requests and the output from the API:
 ![Postman Request Example](https://github.com/london-ay/DFESW7-Final_Project/blob/main/documentation/PostmanPutRequestScreenshot.png?raw=true)
@@ -42,12 +42,11 @@ One of the main next steps for this project is developing a front-end. It was in
 ### Risk Assesment:
 ![Risk Assesment](https://github.com/london-ay/DFESW7-Final_Project/tree/main/documentation/risk_assessment_nutrition_api.pdf"Risk Assesment")
 
-### Entity Relationship Diagram:
-!([https://github.com/london-ay/DFESW7-Final_Project/tree/main/documentation/ERD%20Diagram.pdf?raw=true)
-[https://github.com/london-ay/DFESW7-Final_Project/tree/main/documentation/ERD%20Diagram.pdf](https://github.com/london-ay/DFESW7-Final_Project/tree/main/documentation/ERD%20Diagram.pdf)
-
 ### Testing Coverage:
-![Testing Coverage](https://github.com/london-ay/DFESW7-Final_Project/tree/main/documentation/testing-coverage-68.png?raw=true)
+![Testing Coverage](https://github.com/london-ay/DFESW7-Final_Project/tree/main/documentation/testing-coverage-68.png)
+
+### Entity Relationship Diagram:
+[Entity Relationship Diagram](https://github.com/london-ay/DFESW7-Final_Project/tree/main/documentation/ERD%20Diagram.pdf)
 
 ### Network Graph:
 https://github.com/london-ay/DFESW7-Final_Project/network
